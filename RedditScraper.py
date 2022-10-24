@@ -1,7 +1,7 @@
 import praw
 import webbrowser
 
-reddit = praw.Reddit(client_id='BD6x1qSj4axPADHutUnUGg', client_secret='5E6KTXjcy3i7CHwtFUTFwK4GuWoAvQ', user_agent='WebScraping')
+reddit = praw.Reddit(client_id='CLIENTID', client_secret='SECRET', user_agent='USERAGENT')
 
 file2 = open(r"index.html", "w")
 text = '''
