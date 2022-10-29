@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  003redditscraper:
+    image: 003redditscraper
+    build:
+      context: .
+      dockerfile: ./Dockerfile
